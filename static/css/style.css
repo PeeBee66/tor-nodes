@@ -1,0 +1,91 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    margin-bottom: 1rem;
+}
+
+.history-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 4px solid;
+}
+
+.history-item.success {
+    background-color: #d4edda;
+    border-left-color: #28a745;
+}
+
+.history-item.error {
+    background-color: #f8d7da;
+    border-left-color: #dc3545;
+}
+
+.history-item.skipped {
+    background-color: #fff3cd;
+    border-left-color: #ffc107;
+}
+
+.history-item.in_progress {
+    background-color: #d1ecf1;
+    border-left-color: #17a2b8;
+}
+
+.progress-indicator {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+.timestamp {
+    font-size: 0.85em;
+    color: #6c757d;
+}
+
+.message {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.stats {
+    margin-top: 5px;
+    font-size: 0.85em;
+    color: #495057;
+}
+
+.tab-content {
+    min-height: 400px;
+}
+
+#nodesTable_wrapper {
+    margin-top: 20px;
+}
+
+.navbar-text {
+    font-size: 0.9em;
+}
+
+.history-item .message {
+    word-break: break-word;
+}
+
+.history-item .message:contains("RATE LIMITED") {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+#forceScrapeBtn {
+    transition: all 0.3s ease;
+}
+
+#forceScrapeBtn:disabled {
+    opacity: 0.7;
+}
+
+.alert {
+    margin-bottom: 1rem;
+}

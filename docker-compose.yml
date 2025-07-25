@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  tor-scraper:
+    image: yourusername/tor-daily-scraper:latest
+    container_name: tor-daily-scraper
+    ports:
+      - "5002:5002"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - tor_data:/app/shared_data
+    environment:
+      # Scraping configuration
+      - SCRAPE_ENABLED=true
+      - TOR_SCRAPE_SITE=https://www.dan.me.uk
+      - TOR_SCRAPE_FREQUENCY_HOURS=1
+      
+      # GitHub upload configuration
+      - UPLOAD_TO_GITHUB=${UPLOAD_TO_GITHUB:-false}
+      - GITHUB_REPO=${GITHUB_REPO:-your-username/your-repo}
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-your-github-token}
+      - GITHUB_UPLOAD_FREQ_HOURS=${GITHUB_UPLOAD_FREQ_HOURS:-1}
+      
+      # OpenCTI configuration
+      - UPLOAD_TO_OPENCTI=${UPLOAD_TO_OPENCTI:-false}
+      - OPENCTI_URL=${OPENCTI_URL:-http://localhost:4001}
+      - OPENCTI_API_KEY=${OPENCTI_API_KEY:-your-opencti-api-key}
+      - OPENCTI_UPLOAD_FREQ_HOURS=${OPENCTI_UPLOAD_FREQ_HOURS:-24}
+      
+      # Email notification configuration
+      - EMAIL_ENABLED=${EMAIL_ENABLED:-false}
+      - EMAIL_SMTP_SERVER=${EMAIL_SMTP_SERVER:-smtp.gmail.com}
+      - EMAIL_SMTP_PORT=${EMAIL_SMTP_PORT:-587}
+      - EMAIL_USERNAME=${EMAIL_USERNAME:-}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD:-}
+      - EMAIL_FROM=${EMAIL_FROM:-tor-monitor@example.com}
+      - EMAIL_TO=${EMAIL_TO:-your-email@example.com}
+      - EMAIL_FREQUENCY=${EMAIL_FREQUENCY:-weekly}
+      
+      # General configuration
+      - LOG_LEVEL=INFO
+      - TIMEZONE=UTC
+    restart: unless-stopped
+
+volumes:
+  tor_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./shared_data

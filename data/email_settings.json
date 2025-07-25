@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "includeNodeStats": true,
+  "includeScrapeHistory": true,
+  "includeGithubHistory": true,
+  "includeOpenctiHistory": true,
+  "includeErrors": true,
+  "includeSystemHealth": true
+}

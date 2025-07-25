@@ -1,0 +1,305 @@
+{
+  "scrape_history": [
+    {
+      "timestamp": "2025-07-25T06:12:47.952571",
+      "status": "success",
+      "message": "Successfully scraped all stages",
+      "nodes_total": 6318,
+      "nodes_exit": 1236,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25T05:37:03.472789",
+      "status": "success",
+      "message": "Successfully scraped all stages",
+      "nodes_total": 6308,
+      "nodes_exit": 1233,
+      "nodes_added": 0,
+      "nodes_removed": 26
+    },
+    {
+      "timestamp": "2025-07-25T05:01:25.122315",
+      "status": "success",
+      "message": "Successfully scraped all stages",
+      "nodes_total": 6317,
+      "nodes_exit": 1232,
+      "nodes_added": 0,
+      "nodes_removed": 22
+    },
+    {
+      "timestamp": "2025-07-25 04:24:34.736952",
+      "status": "error",
+      "message": "[FORCED] Force scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 04:03:18.963521",
+      "status": "skipped",
+      "message": "Scraping failed: Could not find node data section",
+      "nodes_total": 6322,
+      "nodes_exit": 1233,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 03:42:33.696804",
+      "status": "skipped",
+      "message": "Scraping failed: Could not find node data section",
+      "nodes_total": 6317,
+      "nodes_exit": 1233,
+      "nodes_added": 0,
+      "nodes_removed": 24
+    },
+    {
+      "timestamp": "2025-07-25 03:24:34.835320",
+      "status": "skipped",
+      "message": "Scraping failed: Could not find node data section",
+      "nodes_total": 6341,
+      "nodes_exit": 1234,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 02:45:29.242224",
+      "status": "skipped",
+      "message": "Scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 02:42:42.852109",
+      "status": "skipped",
+      "message": "Scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 02:42:01.257908",
+      "status": "skipped",
+      "message": "Scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 02:36:36.219983",
+      "status": "skipped",
+      "message": "Scraping failed: Could not find node data section",
+      "nodes_total": 6317,
+      "nodes_exit": 1228,
+      "nodes_added": 0,
+      "nodes_removed": 20
+    },
+    {
+      "timestamp": "2025-07-25 02:04:25.056042",
+      "status": "skipped",
+      "message": "Scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 02:03:07.658118",
+      "status": "skipped",
+      "message": "Scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 02:01:36.347300",
+      "status": "skipped",
+      "message": "Scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 01:58:15.262236",
+      "status": "error",
+      "message": "[FORCED] Force scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 01:53:26.990641",
+      "status": "error",
+      "message": "[FORCED] Force scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 01:53:12.344981",
+      "status": "success",
+      "message": "[FORCED] Successfully scraped all stages",
+      "nodes_total": 6318,
+      "nodes_exit": 1233,
+      "nodes_added": 0,
+      "nodes_removed": 8,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 01:21:51.095082",
+      "status": "error",
+      "message": "[FORCED] Force scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 01:21:33.354455",
+      "status": "skipped",
+      "message": "Scraping failed: RATE_LIMITED: Server returned 403 Forbidden. You can only fetch data every 30 minutes. Please wait before trying again.",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    },
+    {
+      "timestamp": "2025-07-25 01:20:37.300033",
+      "status": "error",
+      "message": "[FORCED] Force scraping failed: Failed to collect all nodes",
+      "nodes_total": 0,
+      "nodes_exit": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 01:20:17.488047",
+      "status": "success",
+      "message": "[FORCED] Successfully scraped all stages",
+      "nodes_total": 6326,
+      "nodes_exit": 1234,
+      "nodes_added": 61,
+      "nodes_removed": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 00:49:46.372713",
+      "status": "skipped",
+      "message": "Scraping failed: Could not find node data section",
+      "nodes_total": 6265,
+      "nodes_exit": 1228,
+      "nodes_added": 0,
+      "nodes_removed": 13
+    },
+    {
+      "timestamp": "2025-07-24 23:49:46.375596",
+      "status": "skipped",
+      "message": "Scraping failed: Could not find node data section",
+      "nodes_total": 6149,
+      "nodes_exit": 1226,
+      "nodes_added": 0,
+      "nodes_removed": 177
+    },
+    {
+      "timestamp": "2025-07-24 23:30:55.613485",
+      "status": "skipped",
+      "message": "Scraping failed: Could not find node data section",
+      "nodes_total": 6326,
+      "nodes_exit": 1229,
+      "nodes_added": 0,
+      "nodes_removed": 0
+    }
+  ],
+  "github_history": [
+    {
+      "timestamp": "2025-07-25 04:15:28.077313",
+      "status": "success",
+      "message": "[FORCED] Successfully uploaded tor_nodes_latest.csv | Successfully uploaded tor_nodes_IP_only.csv",
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 04:08:13.946579",
+      "status": "success",
+      "message": "[FORCED] Successfully uploaded to GitHub: tor_nodes_2025-07-25.csv and tor_nodes_latest.csv",
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 03:30:53.872618",
+      "status": "error",
+      "message": "[FORCED] GitHub upload failed: 403 - {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"403\"}",
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 03:19:26.406765",
+      "status": "error",
+      "message": "[FORCED] GitHub upload failed: 403 - {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"403\"}",
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 02:46:14.678000",
+      "status": "error",
+      "message": "[FORCED] GitHub upload failed: 403 - {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"403\"}",
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 02:44:23.311884",
+      "status": "error",
+      "message": "[FORCED] GitHub upload failed: 403 - {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"403\"}",
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 02:43:07.035306",
+      "status": "error",
+      "message": "[FORCED] HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/PeeBee66/tor-nodes/contents/tor_nodes_2025-07-25.csv (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1016)')))",
+      "forced": true
+    }
+  ],
+  "opencti_history": [
+    {
+      "timestamp": "2025-07-25 05:57:28.394845",
+      "status": "success",
+      "message": "[FORCED] \u2705 API Test Successful - Import job started for 6308 entries",
+      "imported": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 05:45:57.025461",
+      "status": "in_progress",
+      "message": "[FORCED] API test successful! Import job started for 6308 entries. Processing in background...",
+      "imported": 0,
+      "forced": true
+    },
+    {
+      "timestamp": "2025-07-25 05:08:15.863822",
+      "status": "error",
+      "message": "OpenCTI connection failed: Connection failed: {'name': 'GRAPHQL_VALIDATION_FAILED', 'error_message': 'Cannot query field \"created_at\" on type \"MeUser\".'}",
+      "imported": 0
+    },
+    {
+      "timestamp": "2025-07-25 05:07:28.960292",
+      "status": "error",
+      "message": "OpenCTI connection failed: Connection failed: 'OpenCTIApiClient' object has no attribute 'get_about'",
+      "imported": 0
+    }
+  ],
+  "node_stats": {
+    "total_nodes": 6318,
+    "exit_nodes": 1236,
+    "added_nodes": 0,
+    "removed_nodes": 0
+  }
+}
