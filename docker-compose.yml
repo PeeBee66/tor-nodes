@@ -37,6 +37,7 @@ services:
       - EMAIL_FROM=${EMAIL_FROM:-tor-monitor@example.com}
       - EMAIL_TO=${EMAIL_TO:-your-email@example.com}
       - EMAIL_FREQUENCY=${EMAIL_FREQUENCY:-weekly}
+#https://www.wpoven.com/tools/free-smtp-server-for-testing
       
       # General configuration
       - LOG_LEVEL=INFO
